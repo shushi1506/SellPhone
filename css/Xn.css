@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;	
+}
+a {
+	text-decoration: none;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: -moz-linear-gradient(top, #806f50 15%, #ffffff 55%) no-repeat;	
+	background: -webkit-linear-gradient(top, #806f50 15%, #ffffff 55%) no-repeat;
+}
+#wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	height:800px;
+}	
+#head_top{
+	width:100%;
+	height:120px;
+	background:url(image/head_top_old.png) no-repeat center;
+border-radius:15px 15px 0px 0px;
+float:left;
+}
+#head_top .logo2{
+	width: 340px;
+	height: 48;
+	background:url(image/logo.png) no-repeat center #1a9986;
+	margin-left:10px;
+	margin-top:20px;
+	padding-top:82px;
+	float: left;
+	border-radius: 0px 0px 15px 15px; 
+}
+#head_top .space{
+	width:150px;
+	height:100%;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;	
+}
+#head_top.space a{
+	font-size:40px;
+	float:left;
+}
+#shadow {
+	width: 100%;
+	float: left;
+	height:800px;
+	box-shadow: 5px 5px 20px #b9b29f;
+}
+#content{
+	width:800px;
+	margin-left:300px;
+	float:left;
+}
+#content p{
+	font-size:40px;
+	text-align:center;
+}
+#content .main{
+	width:100%;
+	border:1px solid #0F0;
+	height:500px;
+	border-radius:5px;
+	box-shadow: 5px 5px 20px #FF6600	;
+}
+#content .main .thanhcong{
+	display:block;
+	width:780px;
+	height:130px;
+	padding-top:20px;
+	padding-left:20px;
+	border:1px solid #9F0;
+	border-radius:2px;
+}
+#content .main .thanhcong strong{
+	font-size:30px;
+	float:left;
+	clear:both;
+}
+#content .main .thanhcong span{
+	font-size:22px;
+	clear:both;
+	float:left;
+}
+#content .main .giuhang{
+	width:100%;
+	height:50px;
+	display:block;
+	font-size:24px;
+}
+#content .main .thongtin{
+	width:100%;
+	height:150px;
+	display:block;
+	border-top:3px solid #0F9;
+}
+#content .main .thongtin ul{
+	text-align:center;
+	font-size:26px;
+	height:30px;
+}
+#content .main .thongtin .diachi{
+	height:120px;
+	display:block;
+	float:left;
+	margin-top:25px;
+	margin-left:70px;
+}
+#content .main .thongtin .diachi .list{
+		height:60px;
+		float:left;  
+    overflow: hidden;
+    width: auto;
+    margin-left: 10px;
+}
+#content .main .thongtin .diachi .list select{
+	display: block;
+    background: #fff;
+    padding: 10px;
+	    border-radius: 4px;
+    width:inherit;
+	margin-top:10px;
+	font-size:18px;
+}
+#content .main .thongtin .diachi .sonha{
+		height:60px;
+		display:block;
+		float:right;  
+    overflow: hidden;
+    width: auto;
+    margin-left: 10px;;
+	margin-top:10px;;
+}
+#content .main .thongtin .diachi .sonha input{
+	display: block;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    height: 18px;
+	    border-radius: 4px;
+    width:inherit;
+	font-size:20px;
+}
+#content .main .nutan{
+	width:100%;
+	height:100px;
+	display:block;
+}
+#content .main .nutan .nut{
+   font-size: 14px;
+    color: #fff;
+    padding: 5px 14px;
+	bottom:16px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 5px;
+    height: auto;
+    border: 1px solid #d97f00;
+    border-radius: 3px;
+	background: -webkit-linear-gradient(top,#f89406,#f76b1c);
+}
+#content .main .nutan a{
+	display: block;
+    overflow: hidden;
+    height:100px;
+    background: #fff;
+    cursor: pointer;
+}
+#content .main .nutan .buy{
+   font-size: 24px;
+    color: #fff;
+    padding: 5px 14px;
+	bottom:16px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 5px;
+    height: auto;
+	width:150px;
+	text-align:center;
+    border: 1px solid #d97f00;
+    border-radius: 3px;
+	background: -webkit-linear-gradient(top,#f89406,#fff);
+}
+#content .main .link{
+	width:100%;
+	height:50px;
+	display:block;
+}
